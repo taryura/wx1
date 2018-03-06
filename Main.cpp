@@ -23,7 +23,7 @@ IMPLEMENT_APP(wxGUI2App);
 bool wxGUI2App::OnInit()
 {
     wxGUI2Frame* frame = new wxGUI2Frame(0L, _("wxWidgets Application Template"));
-    frame->SetIcon(wxICON(aaaa)); // To Set App Icon
+    frame->SetIcon(wxICON(AppIcon)); // To Set App Icon
     frame->Show();
 
     return true;

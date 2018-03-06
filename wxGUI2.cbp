@@ -68,6 +68,7 @@
 		</Linker>
 		<Unit filename="Main.cpp" />
 		<Unit filename="Main.h" />
+		<Unit filename="Toolbars.cpp" />
 		<Unit filename="event_handlers.cpp" />
 		<Unit filename="events.cpp" />
 		<Unit filename="menues.cpp" />

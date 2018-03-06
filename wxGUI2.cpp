@@ -40,7 +40,7 @@ wxString wxbuildinfo(wxbuildinfoformat format)
 wxGUI2Frame::wxGUI2Frame(wxFrame *frame, const wxString& title)
     : wxFrame(frame, -1, title)
 {
-    // create a menu bar
+    // creating a menu bar
     mbar = new wxMenuBar();
 
     CreateFileMenu ();
@@ -48,6 +48,16 @@ wxGUI2Frame::wxGUI2Frame(wxFrame *frame, const wxString& title)
     CreateHelpMenu ();
 
     SetMenuBar(mbar);
+
+    //creating toolbars
+
+    wxImage::AddHandler(new wxPNGHandler);
+
+    //assigning icons and creating toolbars
+    CreateToolbars();
+
+    Connect(wxID_EXIT, wxEVT_COMMAND_TOOL_CLICKED,
+        wxCommandEventHandler(wxGUI2Frame::OnQuit));
 
     // create a status bar with some information about the used wxWidgets version
     CreateStatusBar(3);

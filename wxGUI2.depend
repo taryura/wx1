@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1520277454 source:d:\c++ projects\Новая папка\wxgui2\main.cpp
+1520356857 source:d:\c++ projects\Новая папка\wxgui2\main.cpp
 	"wx_pch.h"
 	"Main.h"
 	"wxGUI2.h"
@@ -1690,7 +1690,7 @@
 1493488838 d:\wxwidgets-3.0.3\include\wx\univ\theme.h
 	"wx/string.h"
 
-1520354456 d:\c++ projects\Новая папка\wxgui2\wxgui2.h
+1520357497 d:\c++ projects\Новая папка\wxgui2\wxgui2.h
 	<wx/wx.h>
 	"Main.h"
 
@@ -2931,7 +2931,7 @@
 1493488838 d:\wxwidgets-3.0.3\include\wx\cocoa\mdi.h
 	"wx/frame.h"
 
-1520281977 source:d:\c++ projects\Новая папка\wxgui2\resource.rc
+1520356861 source:d:\c++ projects\Новая папка\wxgui2\resource.rc
 	"wx/msw/wx.rc"
 
 1493488838 d:\wxwidgets-3.0.3\include\wx\msw\wx.rc
@@ -2951,7 +2951,7 @@
 
 1493488838 d:\wxwidgets-3.0.3\include\wx\msw\rcdefs.h
 
-1520350993 source:d:\c++ projects\Новая папка\wxgui2\events.cpp
+1520354630 source:d:\c++ projects\Новая папка\wxgui2\events.cpp
 	"wxGUI2.h"
 
 1520354322 source:d:\c++ projects\Новая папка\wxgui2\event_handlers.cpp
@@ -2959,5 +2959,8 @@
 
 1520350993 source:d:\c++ projects\Новая папка\wxgui2\wxgui2.cpp
 	"wx_pch.h"
+	"wxGUI2.h"
+
+1520354276 source:d:\c++ projects\Новая папка\wxgui2\menues.cpp
 	"wxGUI2.h"
 

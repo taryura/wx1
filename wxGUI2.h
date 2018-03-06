@@ -22,6 +22,10 @@ class wxGUI2Frame: public wxFrame
         wxGUI2Frame(wxFrame *frame, const wxString& title);
         ~wxGUI2Frame();
         wxMenuBar *mbar;
+
+        wxToolBar *toolbar1;
+        wxToolBar *toolbar2;
+
     private:
 
         //declaring menu IDs
@@ -71,6 +75,9 @@ class wxGUI2Frame: public wxFrame
         void CreateFileMenu();
         void CreateEditMenu();
         void CreateHelpMenu();
+
+        //Toolbars creation methods
+        void CreateToolbars();
 
 
 
