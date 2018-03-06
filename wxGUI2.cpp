@@ -41,14 +41,11 @@ wxGUI2Frame::wxGUI2Frame(wxFrame *frame, const wxString& title)
     : wxFrame(frame, -1, title)
 {
     // create a menu bar
-    wxMenuBar* mbar = new wxMenuBar();
-    wxMenu* fileMenu = new wxMenu(_T(""));
-    fileMenu->Append(idMenuQuit, _("&Quit\tAlt-F4"), _("Quit the application"));
-    mbar->Append(fileMenu, _("&File"));
+    mbar = new wxMenuBar();
 
-    wxMenu* helpMenu = new wxMenu(_T(""));
-    helpMenu->Append(idMenuAbout, _("&About\tF1"), _("Show info about this application"));
-    mbar->Append(helpMenu, _("&Help"));
+    CreateFileMenu ();
+    CreateEditMenu();
+    CreateHelpMenu ();
 
     SetMenuBar(mbar);
 

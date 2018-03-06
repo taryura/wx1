@@ -70,6 +70,7 @@
 		<Unit filename="Main.h" />
 		<Unit filename="event_handlers.cpp" />
 		<Unit filename="events.cpp" />
+		<Unit filename="menues.cpp" />
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
