@@ -1,6 +1,6 @@
 /***************************************************************
- * Name:      wxGUI2Main.h
- * Purpose:   Defines Application Frame
+ * Name:      wxGUI2.h
+ * Purpose:   Defines Application Event IDs and their handlers
  * Author:    Iurii Taranenko (taryura@gmail.com)
  * Created:   2018-03-05
  * Copyright: Iurii Taranenko ()
@@ -28,7 +28,7 @@ class wxGUI2Frame: public wxFrame
 
     private:
 
-        //declaring menu IDs
+        //declaring event IDs
         enum
         {
             idMenuQuit = 1000,

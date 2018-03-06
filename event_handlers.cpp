@@ -1,3 +1,13 @@
+/***************************************************************
+ * Name:      event_handlers.cpp
+ * Purpose:   Code for Event handlers
+ * Author:    Iurii Taranenko (taryura@gmail.com)
+ * Created:   2018-03-06
+ * Copyright: Iurii Taranenko ()
+ * License:
+ **************************************************************/
+
+
 #include "wxGUI2.h"
 
 //General Close Event

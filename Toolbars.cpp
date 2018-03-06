@@ -1,3 +1,12 @@
+/***************************************************************
+ * Name:      Toolbars.cpp
+ * Purpose:   Code for Toolbars items
+ * Author:    Iurii Taranenko (taryura@gmail.com)
+ * Created:   2018-03-06
+ * Copyright: Iurii Taranenko ()
+ * License:
+ **************************************************************/
+
 #include "wxGUI2.h"
 
 void wxGUI2Frame::CreateToolbars()
@@ -8,6 +17,7 @@ void wxGUI2Frame::CreateToolbars()
     wxBitmap save(wxT("save.png"), wxBITMAP_TYPE_PNG);
 
     wxBoxSizer *vbox = new wxBoxSizer(wxVERTICAL);
+
 
     toolbar1 = new wxToolBar(this, wxID_ANY);
     toolbar1->AddTool(idMenuFile_New, wxT("New"), newb);

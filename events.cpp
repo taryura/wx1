@@ -1,3 +1,12 @@
+/***************************************************************
+ * Name:      events.cpp
+ * Purpose:   Defines Event table
+ * Author:    Iurii Taranenko (taryura@gmail.com)
+ * Created:   2018-03-06
+ * Copyright: Iurii Taranenko ()
+ * License:
+ **************************************************************/
+
 #include "wxGUI2.h"
 
 BEGIN_EVENT_TABLE(wxGUI2Frame, wxFrame)

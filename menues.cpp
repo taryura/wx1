@@ -1,3 +1,12 @@
+/***************************************************************
+ * Name:      menues.cpp
+ * Purpose:   Code for App Menu items
+ * Author:    Iurii Taranenko (taryura@gmail.com)
+ * Created:   2018-03-06
+ * Copyright: Iurii Taranenko ()
+ * License:
+ **************************************************************/
+
 #include "wxGUI2.h"
 
 void wxGUI2Frame::CreateFileMenu()

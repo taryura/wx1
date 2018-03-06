@@ -1,3 +1,12 @@
+/***************************************************************
+ * Name:      wxGUI2.cpp
+ * Purpose:   Code for the main App Frame
+ * Author:    Iurii Taranenko (taryura@gmail.com)
+ * Created:   2018-03-05
+ * Copyright: Iurii Taranenko ()
+ * License:
+ **************************************************************/
+
 #ifdef WX_PRECOMP
 #include "wx_pch.h"
 #endif

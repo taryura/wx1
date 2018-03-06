@@ -1,5 +1,5 @@
 /***************************************************************
- * Name:      wxGUI2App.cpp
+ * Name:      Main.cpp
  * Purpose:   Code for Application Class
  * Author:    Iurii Taranenko (taryura@gmail.com)
  * Created:   2018-03-05
@@ -22,7 +22,7 @@ IMPLEMENT_APP(wxGUI2App);
 
 bool wxGUI2App::OnInit()
 {
-    wxGUI2Frame* frame = new wxGUI2Frame(0L, _("wxWidgets Application Template"));
+    wxGUI2Frame* frame = new wxGUI2Frame(0L, _("wxWidgets GUI Template"));
     frame->SetIcon(wxICON(AppIcon)); // To Set App Icon
     frame->Show();
 

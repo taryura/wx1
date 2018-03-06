@@ -1,5 +1,5 @@
 /***************************************************************
- * Name:      wxGUI2App.h
+ * Name:      Main.h
  * Purpose:   Defines Application Class
  * Author:    Iurii Taranenko (taryura@gmail.com)
  * Created:   2018-03-05
