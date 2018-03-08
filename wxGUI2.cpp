@@ -65,9 +65,6 @@ wxGUI2Frame::wxGUI2Frame(wxFrame *frame, const wxString& title)
     //assigning icons and creating toolbars
     CreateToolbars();
 
-    Connect(wxID_EXIT, wxEVT_COMMAND_TOOL_CLICKED,
-        wxCommandEventHandler(wxGUI2Frame::OnQuit));
-
     // create a status bar with some information about the used wxWidgets version
     CreateStatusBar(3);
     SetStatusText(_("Hello!"),0);
